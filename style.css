@@ -1,0 +1,165 @@
+style.css
+
+body {
+  font-family: 'Helvetica';
+  color:rgb(50,50,50);
+  font-size: 40px;
+  font-weight: 100
+}
+
+p {  font-family: 'Helvetica';
+  color:rgb(50,50,50);
+  font-size: 40px;
+  font-weight: 100
+}
+
+h1{
+  font-size: 50px;
+  font-family: 'Helvetica';
+  font-weight: 200
+}
+
+h2,h3 {
+  font-size: 45px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(90,90,90);
+}
+
+h4 {
+  font-size: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(202, 31, 123);
+}
+
+ul{
+  font-family: 'Helvetica';
+  color:rgb(50,50,50);
+  font-size: 40px;
+  font-weight: 100;
+  list-style-type: none;
+}
+
+a {
+  color: #6dd4b1;
+  transition: all 0.2s linear;
+  font-size: 40px;
+  font-family: "Helvetica";
+}
+
+a: hover{
+  color: green;
+}
+
+div{
+  margin: 60px 20px;
+  padding: 10px 10px:;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#photo_lia {
+  border-radius: 50%;
+}
+
+#Portada_Tarde {
+  border-radius: 50px;
+  height:75%;
+  width:75%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.container {
+  width: 2100px;
+  margin: 30px auto;
+}
+
+/* Responsiveness */
+@media (max-width: 2500px) {
+  .container {
+  width: 2100px;
+  }
+}
+
+@media (max-width: 2200px) {
+  .container {
+  width: 1875px;
+  }
+}
+@media (max-width: 1900px){
+  .container {
+    width: 1500px;
+  }
+}
+@media (max-width: 1600px){
+  .container {
+    width: 950px;
+  }
+}
+.card-white-intro {
+background: white;
+padding: 120px;
+border-radius: 4px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+margin: 0px, auto;
+text-align: center;
+}
+
+.card-white {
+background: white;
+padding: 120px;
+border-radius: 4px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+margin: 0px, auto;
+text-align: center;
+}
+
+.btn-black {
+  background: black;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+
+}
+
+.btn-black:hover {
+  background-color: green;
+  color: white;
+}
+
+.list-horizontal {
+  list-style: none;
+  padding: auto;
+}
+
+.list-horizontal li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-horizontal i {
+  font-size: 50px;
+  color: rgb(250, 250, 250);
+}
+
+.list-horizontal : hover{
+  color: black;
+}
+
+#the-road-map p {
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
