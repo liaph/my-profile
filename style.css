@@ -3,24 +3,26 @@ style.css
 body {
   font-family: 'Helvetica';
   color:rgb(50,50,50);
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 100
 }
 
 p {  font-family: 'Helvetica';
   color:rgb(50,50,50);
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 100
 }
 
 h1{
   font-size: 50px;
   font-family: 'Helvetica';
-  font-weight: 200
+  font-weight: 200;
+  align
+
 }
 
 h2,h3 {
-  font-size: 45px;
+  font-size: 40px;
   font-family: 'Source Sans Pro', sans-serif;
   color: rgb(90,90,90);
 }
@@ -116,6 +118,14 @@ border-radius: 4px;
 box-shadow: 0 10px 30px rgba(0,0,0,.1);
 margin: 0px, auto;
 text-align: center;
+}
+
+.card-white h3, a {
+text-align: center;
+}
+
+.card-white p {
+text-align: justify;
 }
 
 .btn-black {
